@@ -1,6 +1,6 @@
 jsexport const NETWORKS = {
   celoSepolia: {
-    chainId: "0xaa37dc",
+    chainId: "0xAA044C",
     chainName: "Celo Sepolia",
     nativeCurrency: { name: "CELO", symbol: "CELO", decimals: 18 },
     rpcUrls: ["https://forno.celo-sepolia.celo-testnet.org"],
