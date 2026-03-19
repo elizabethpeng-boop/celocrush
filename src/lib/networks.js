@@ -1,4 +1,4 @@
-jsexport const NETWORKS = {
+export const NETWORKS = {
   celoSepolia: {
     chainId: "0xAA044C",
     chainName: "Celo Sepolia",
