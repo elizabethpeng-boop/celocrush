@@ -133,7 +133,7 @@ export function useCeloCrush({ signer, provider, address }) {
       );
 
       // Newest first
-      return crushData.reverse();
+      return crushData.length > 0 ? crushData.reverse() : [];
     } catch (e) {
       console.error("Failed to load inbox:", e);
       return [];

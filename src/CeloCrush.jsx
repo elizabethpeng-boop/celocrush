@@ -466,7 +466,7 @@ export default function CeloCrush() {
     if (screen !== "home") return;
     (async () => {
       setLoading(true);
-      if (contract.contractDeployed && wallet.address) {
+      if (false) {
         const inbox = await contract.loadInbox();
         setCrushes(inbox.length > 0 ? inbox : MOCK_CRUSHES);
         const bal = await contract.getUSDTBalance();
